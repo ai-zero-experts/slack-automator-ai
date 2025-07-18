@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import AnimatedDots from './AnimatedDots';
 import AnimatedText from './AnimatedText';
+import slackLogo from '@/assets/slack-logo.png';
 
 const Hero = () => {
   return (
@@ -16,7 +17,15 @@ const Hero = () => {
           </Badge>
           
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            Automate your Slack{' '}
+            Automate your{' '}
+            <div className="inline-flex items-center gap-3 border-2 border-primary/30 rounded-xl px-4 py-2 bg-primary/5 hover:border-primary hover:bg-primary/10 transition-all duration-300 hover:scale-105 cursor-pointer group">
+              <img 
+                src={slackLogo} 
+                alt="Slack" 
+                className="w-8 h-8 md:w-10 md:h-10 group-hover:scale-110 transition-transform duration-300"
+              />
+              <span className="text-primary font-bold">Slack</span>
+            </div>{' '}
             <AnimatedText />{' '}
             with AI prompts
           </h1>
