@@ -18,7 +18,7 @@ const Hero = () => {
           
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             Automate your{' '}
-            <div className="inline-flex items-center gap-3 border-2 border-primary/30 rounded-xl px-4 py-2 bg-primary/5 hover:border-primary hover:bg-primary/10 transition-all duration-300 hover:scale-105 cursor-pointer group">
+            <div className="inline-flex items-center gap-3 px-2 py-1 hover:scale-105 transition-all duration-300 cursor-pointer group">
               <img 
                 src={slackLogo} 
                 alt="Slack" 
