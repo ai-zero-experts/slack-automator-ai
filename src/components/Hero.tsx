@@ -17,7 +17,7 @@ const Hero = () => {
           </Badge>
           
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            Automate your{' '}
+            Observe, Control & Interact with all your{' '}
             <div className="inline-flex items-center gap-3 px-2 py-1 hover:scale-105 transition-all duration-300 cursor-pointer group">
               <img 
                 src={slackLogo} 
@@ -27,7 +27,7 @@ const Hero = () => {
               <span className="text-primary font-bold">Slack</span>
             </div>{' '}
             <AnimatedText />{' '}
-            with AI prompts
+            from 1 desk.
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
