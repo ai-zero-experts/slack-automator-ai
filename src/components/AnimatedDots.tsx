@@ -15,13 +15,14 @@ const AnimatedDots = () => {
       {dots.map((dot) => (
         <div
           key={dot.id}
-          className="absolute rounded-full bg-primary/20 animate-pulse-slow"
+          className="absolute rounded-full animate-float"
           style={{
             left: `${dot.left}%`,
             top: `${dot.top}%`,
             width: `${dot.size}px`,
             height: `${dot.size}px`,
             animationDelay: `${dot.delay}s`,
+            background: `hsl(${263 + Math.random() * 30} ${70 + Math.random() * 20}% ${50 + Math.random() * 20}% / ${0.3 + Math.random() * 0.4})`,
           }}
         />
       ))}

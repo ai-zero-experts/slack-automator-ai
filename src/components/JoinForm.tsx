@@ -57,10 +57,10 @@ const JoinForm = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Join our inner circle
+            Test our AI automation platform
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Help us shape the future of community automation. Get free access and direct input on our roadmap.
+            Join our beta community and help us perfect AI-powered Slack automation. Free access + direct input on new features.
           </p>
         </div>
         
@@ -102,16 +102,16 @@ const JoinForm = () => {
                     name="reason"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Why do you want to use this tool?</FormLabel>
+                        <FormLabel>What would you like to automate in your Slack workspace?</FormLabel>
                         <FormControl>
                           <Textarea 
-                            placeholder="Tell us about your community management challenges, what tasks you'd like to automate, or how this could help your Slack workspace..."
+                            placeholder="Example: 'Send daily check-ins to marketing team and post summaries to #updates' or 'Welcome new members and assign them to relevant channels based on their role'..."
                             className="min-h-[100px] border-primary/20 focus:ring-primary"
                             {...field}
                           />
                         </FormControl>
                         <FormDescription>
-                          Help us understand your use case so we can tailor the experience
+                          Describe your automation ideas in plain English - this helps us customize your experience
                         </FormDescription>
                         <FormMessage />
                       </FormItem>
@@ -172,9 +172,9 @@ const JoinForm = () => {
                 </div>
                 <ul className="text-sm text-muted-foreground space-y-1">
                   <li>• We'll review your application within 2-3 days</li>
-                  <li>• You'll receive a Slack invite to our beta workspace</li>
-                  <li>• Get free access to test and shape the product</li>
-                  <li>• Direct line to our team for feedback and suggestions</li>
+                  <li>• Receive Slack invite to test our AI automation platform</li>
+                  <li>• Create custom automations with simple prompts</li>
+                  <li>• Direct feedback channel with our AI/product team</li>
                 </ul>
               </div>
             </CardContent>

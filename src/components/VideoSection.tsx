@@ -8,10 +8,10 @@ const VideoSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            See it in action
+            Watch our AI in action
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Watch how our tool transforms community management with simple automation prompts
+            See how we automate complex workflows with simple prompts like "Message the marketing team daily and post summaries to #marketing-updates"
           </p>
         </div>
         
@@ -28,8 +28,8 @@ const VideoSection = () => {
             
             <div className="absolute bottom-4 left-4 right-4">
               <div className="bg-background/90 backdrop-blur-sm rounded-lg p-4">
-                <h3 className="font-semibold text-foreground">Product Demo</h3>
-                <p className="text-sm text-muted-foreground">See how to automate daily standups and channel summaries</p>
+                <h3 className="font-semibold text-foreground">AI Automation Demo</h3>
+                <p className="text-sm text-muted-foreground">Watch how a single prompt creates multi-step automations</p>
               </div>
             </div>
           </Card>
