@@ -31,17 +31,16 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Tell our AI what you need automated in plain English. Daily check-ins, 
-            channel summaries, member onboarding - anything you can describe, we can automate.
+            Stop tab-hopping. Mass DM, scrape emails, automate tasks. Get early access.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-medium animate-float"
-              onClick={() => document.getElementById('form-section')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => window.open('https://join.slack.com/t/microfoxoss/shared_invite/zt-399vobsye-6VLae3jVUkRybJI5FEhO0A', '_blank')}
             >
-              Get Early Access
+              Join us on Slack
             </Button>
             <Button 
               variant="outline" 
